@@ -4,7 +4,7 @@ default ansible_ssh_host=139.59.165.69
 default
 
 [digital_ocean_box:vars]
-site_address="https://westmids.peoplesplan.co.uk"
+site_address="https://139.59.165.69"
 cert_location="secure/objective8.crt"
 cert_key_location="secure/objective8.key"
-external_jwk_set_url="https://westmids.peoplesplan.co.uk/as2/jwk-set"
+external_jwk_set_url="https://139.59.165.69/as2/jwk-set"

@@ -39,6 +39,8 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  color: blue;
+  text-decoration: underline;
   @include mq($smallish_device) {
     font-size: 40px;
   }

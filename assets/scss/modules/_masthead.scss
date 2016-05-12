@@ -8,11 +8,11 @@
 .masthead {
   position: relative;
   z-index: 10;
-  background: black;
-  color: white;
-  padding: 0.4em 1em 0.6em;
-  box-shadow: 0 2px 7px rgba(0,0,0,.15);
+  background: $white;
+  color: $black;
+  padding: 0 $base-spacing;
   text-align: center;
+  line-height: 3 * $base-spacing;
   @include mq($large_device) {
     text-align: left;
   }
@@ -48,6 +48,7 @@
   @include mq($large_device) {
     margin-right: 1em;
     max-width: 20%;
+    line-height: 3 * $base-spacing;
   }
   @include mq($extra_large_device) {
     margin-right: 1em;

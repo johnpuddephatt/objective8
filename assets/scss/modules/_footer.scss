@@ -1,11 +1,5 @@
 .footer-container {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: $footer_height;
-  color: $offwhite;
-  background-color: $black;
+  background-color: $footer_color;
 }
 
 .footer {
@@ -39,13 +33,13 @@
 .footer-link {
   display: inline-block;
   line-height: 1.4;
-  color: $offwhite;
+  color: $black;
   text-decoration: none;
   &:visited {
-    color: $offwhite;
+    color: $black;
   }
   &:hover {
-    color: #2e8aca;
+    color: $color1;
   }
 }
 
@@ -60,7 +54,7 @@
 
 .footer-footer {
   padding-top: 1em;
-  border-top: 1px solid rgba($offwhite,0.25);
+  border-top: 1px solid $grey_1;
   text-align: right;
 }
 

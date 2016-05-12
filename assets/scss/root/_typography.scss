@@ -2,9 +2,9 @@ h1 {
   margin-top: 0;
   line-height: 1.2;
   font-family: $sans-serif;
-  letter-spacing: -0.025em;
+  color: $color1;
   @include mq($large_device) {
-    font-size: 2.6em;
+    font-size: 2.4em;
   }
 }
 h2 {

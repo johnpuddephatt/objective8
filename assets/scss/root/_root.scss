@@ -22,7 +22,6 @@ html {
 }
 
 body {
-  background: $black;
   color: $default_text_color;
   font-family: $sans-serif;
   line-height: $baselineheight;
@@ -42,6 +41,6 @@ body {
   z-index: 2;
   min-height: 100%;
   min-width: 100%;
-  background-color: white;
+  background-color: $offwhite;
   transition: transform 250ms ease-in-out;
 }

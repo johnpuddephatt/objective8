@@ -36,17 +36,15 @@
   display: none;
   z-index: 1;
   height: 100%;
-  background: $black;
-  color: $white;
-  text-transform: uppercase;
-  font-size: 0.85em;
-  font-weight: bold;
+  text-transform: lowercase;
+  color: $color1;
+  background-color: $white;
   a {
     text-decoration: none;
     clear: both;
     width: 100%;
     display: block;
-    padding: 2em 1.25em;
+    padding: 0 $small-spacing;
     border-bottom: 1px solid rgba($white,0.05);
     &:visited, & {
       color: inherit;
@@ -61,11 +59,8 @@
   @include mq($large_device) {
     position: relative;
     display: inline-block;
-    vertical-align: top;
-    padding-top: 0.8em;
     white-space: nowrap;
     z-index: 3;
-    color: inherit;
     background: transparent;
     width: auto;
     height: auto;

@@ -1,27 +1,29 @@
 @import "_theme.scss";
 
 //Colours
-$color1: #007E84 !default;
+$color1: #47C4CC !default;
 $color1_dark: darken($color1, 5%);
-$color2: #9C0F83 !default;
+$color2: #EDB569 !default;
 $color2_light: lighten($color2, 5%);
-$color3: #ffbf47 !default;
+$color3: #F5D0B7 !default;
 
 // Standard palette, greys
-$black: #0b0c0c;
+$black: #50565E;
 $grey-1: #6f777b;
+
 $grey-15: #666666;
 $grey-2: #bfc1c3;
 $grey-3: #dee0e2;
 $grey-4: #f8f8f8;
-$grey-5: #E5E5E5;
-$offwhite: #F9F9F9;
+$grey-5: #E2E2E1;
+$offwhite: #F2F4F4;
 $white: #fff;
 
 $intro_grey: #5a6673;
 
-$default_text_color: rgba($black,0.8);
+$default_text_color: $black;
 $border_color: $grey-4;
+$footer_color: $grey-5;
 $grey-out: rgba($grey-1,0.7);
 
 // Links

@@ -6,46 +6,80 @@ block vars
 block content
   .getting-started.index-link
     .index-hero
-      h3 Are we on the air?
-      h1.index-welcome(data-l8n="content:index/index-welcome") !Collaborative policy making for democratic organisations.
-      p.index-intro(data-l8n="content:index/index-intro") !Gather community opinion, generate ideas, share, discuss, vote and collaborate with experts to draft new policy.
+      .container
+        include ../images/heroimage.svg
+        h1.index-welcome It’s time to create a plan for making the West Midlands better
 
-    .grid-container
-      .grid-column
-        .info-box-icon
-          span.icon-idea
-            include ../images/lightbulb.svg
-        .info-box-text
-          span(data-l8n="content:index/create-objective-begin") !An
-          =" "
-          span(data-l8n="content:index/create-objective-keyword") !objective
-          =" "
-          span(data-l8n="content:index/create-objective-end") !is an idea to describe the change you want to achieve.
-      .grid-column
-        .info-box-icon
-          span.icon-users
-            include ../images/people.svg
-        .info-box-text
-          span(data-l8n="content:index/collaborate-info") !Collaborate by asking and answering questions
-      .grid-column
-        .info-box-icon
-          span.icon-comments
-            include ../images/speechbubbles.svg
-        .info-box-text
-          span(data-l8n="content:index/draft-info-begin") !Review the writers
-          =" "
-          span(data-l8n="content:index/draft-info-keyword") !drafts
-          =" "
-          span(data-l8n="content:index/draft-info-end") !in an open and transparent way.
-      .grid-column
-        .info-box-icon
-          span.icon-policy
-            include ../images/policy.svg
-        .info-box-text
-          span(data-l8n="content:index/draft-finished") !Policy
-          = " "
-          span(data-l8n="content:index/draft-finished-info") !is made!
+    .index-intro
+      .container
+        include ../images/westmidsmap.svg
+        p Next year we’ll see the biggest shift of power from Westminster to the West Midlands ever seen. That’s because in May 2017 the people of the West Midlands will choose a Metro Mayor for the region.
+        p We think it’s time to create a plan that sets out the changes we want to see, whether that’s making the region richer, fairer, greener or better connected.
 
-  .index-actions
-    a.button.objectives-link(href="/objectives", data-l8n="content:index/objectives") !View Objectives
-    a.button.index-learn-more(href="/learn-more", data-l8n="content:index/learn-more") !Learn more
+    .index-quote
+      .container
+        h2 “The metro mayor will be elected to control big budgets and make big decisions. They’ll play a big role in shaping the future of where we live.”
+        include ../images/quoteillustration.svg
+
+    .index-steps
+      .container
+        h2 By working together to create The People’s Plan we’ll send a clear message about what we want from our new mayor.
+        p Creating the plan together involves three simple steps.
+        .grid-container
+          .grid-column
+            .info-box-icon
+              span.icon-idea
+                include ../images/lightbulb.svg
+            h3 Suggest
+            .info-box-text
+              span(data-l8n="content:index/create-objective-begin") !An
+              =" "
+              span(data-l8n="content:index/create-objective-keyword") !objective
+              =" "
+              span(data-l8n="content:index/create-objective-end") !is an idea to describe the change you want to achieve.
+          .grid-column
+            .info-box-icon
+              span.icon-users
+                include ../images/people.svg
+            h3 Debate
+            .info-box-text
+              span(data-l8n="content:index/collaborate-info") !Collaborate by asking and answering questions
+          .grid-column
+            .info-box-icon
+              span.icon-comments
+                include ../images/speechbubbles.svg
+            h3 Improve
+            .info-box-text
+              span(data-l8n="content:index/draft-info-begin") !Review the writers
+              =" "
+              span(data-l8n="content:index/draft-info-keyword") !drafts
+              =" "
+              span(data-l8n="content:index/draft-info-end") !in an open and transparent way.
+
+        .index-actions
+          a.button.objectives-link(href="/objectives", data-l8n="content:index/objectives") !View Objectives
+          a.button.index-learn-more(href="/learn-more", data-l8n="content:index/learn-more") !Learn more
+
+    .index-questions
+      .container
+        h3 Questions &amp; answers
+        .tabs
+           .tab
+               input(type="radio", id="tab-1", name="tab-group-1", checked)
+               label(for="tab-1") Will the metro mayor make a difference?
+               .content
+                  p Choosing the right metro mayor – one with a clear understanding of what we want for the West Midlands – will make a massive difference.
+                  p The new mayor will not only control big budgets within the region, they’ll also play a big role in championing the West Midlands outside of the region.
+           .tab
+               input(type="radio", id="tab-2", name="tab-group-1")
+               label(for="tab-2") What sort of ideas should be going into the plan?
+               .content
+                 p The West Midlands is a place of opportunity and enterprise, with a proud tradition of trade, manufacturing and innovation. But it lacks good jobs, affordable homes, good transport and long-term investment.
+                 p The People’s Plan is about identifying the big challenges we all agree need tackling.
+           .tab
+               input(type="radio", id="tab-3", name="tab-group-1")
+               label(for="tab-3") Who's behind The People's Plan?
+               .content
+                 p The People’s Plan has been started by Liam Byrne,  MP for Hodge Hill in Birmingham.
+                 p But it is not a party political initiative. It will involve trade union, community groups and as many people as possible from all parties and none.
+        include ../images/qa.svg

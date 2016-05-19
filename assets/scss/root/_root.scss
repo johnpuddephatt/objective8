@@ -25,6 +25,7 @@ body {
   color: $default_text_color;
   font-family: $sans-serif;
   line-height: $baselineheight;
+  letter-spacing: $baseletterspacing;
   -webkit-font-smoothing: antialiased;
 }
 

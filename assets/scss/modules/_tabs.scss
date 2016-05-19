@@ -1,0 +1,40 @@
+.tabs {
+  position: relative;
+  min-height: 250px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+  .content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    padding: 0 $base-spacing;
+    background-color: $white;
+  }
+}
+.tab {
+  width: 45%;
+}
+.tab label {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: $base-spacing;
+  font-weight: bold;
+  color: $color1;
+  left: -$base-spacing;
+  font-size: $h3-font-size;
+  padding: $small-spacing $base-spacing;
+  border-radius: $small-spacing;
+}
+.tab [type=radio] {
+  display: none;
+}
+
+[type=radio]:checked ~ label {
+  z-index: 2;
+  background-color: $offwhite;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}

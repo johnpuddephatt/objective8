@@ -9,75 +9,87 @@
   }
 }
 
-.index-hero {
-  margin: 0 auto;
-  padding: 0 1em 1em 1em;
-  text-align: center;
-}
-.index-welcome {
-  position: relative;
-  z-index: 2;
-  max-width: 16em;
-  font-size: 30px;
-  font-weight: bold;
+.container {
+  max-width: $max_content_width;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid $grey-3;
+  padding: 2 * $base-spacing 0;
+}
+
+.index-hero {
   text-align: center;
-  @include mq($smallish_device) {
-    font-size: 40px;
+  svg {
+    max-width: 100%;
+    margin-bottom: $base-spacing;
   }
-  @include mq($large_device) {
-    font-size: 50px;
-    line-height: 1;
+  .index-welcome {
+    font-size: $h1-font-size;
+    margin-bottom: 0;
   }
 }
+
 .index-intro {
   position: relative;
   z-index: 2;
   color: $grey-1;
-  max-width: 32em;
   margin-left: auto;
   margin-right: auto;
-  @include mq($smallish_device) {
-    font-size: 18px;
+  p {
+    width: 45%;
+    clear: left;
+    font-weight: bold;
   }
-  @include mq($large_device) {
-    font-size: 21px;
+  svg {
+    float: right;
+    width: 50%;
+  }
+}
+
+.index-quote {
+  h2 {
+    width: 65%;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+    margin-bottom: -3 * $base-spacing;
+  }
+  svg {
+    width: 65%;
   }
 }
 
 .getting-started {
-  margin-left: -1em;
-  margin-right: -1em;
-  margin-bottom: 2em;
-  padding-top: 1em;
-  @include mq($large_device) {
-    padding-top: 1.5em;
-  }
   .grid-container {
     position: relative;
-    max-width: 860px;
     margin: 0 auto;
-    @include mq($large_device) {
-      width: auto;
-    }
   }
   .grid-column {
     @include mq($smallish_device) {
-      width: 50%;
-    }
-    @include mq($large_device) {
-      width: 25%;
+      width: 33.333%;
     }
   }
 }
 
-$home_icon_height: 140px;
+$home_icon_height: 6.4 * $base-spacing;
 
 %index-icon {
   display: block;
   height: $home_icon_height;
   margin: 0 auto;
+}
+
+.index-steps {
+  background-color: $black;
+  color: $white;
+  text-align: center;
+  padding: 2 * $base-spacing 0;
+  .container {
+    border-bottom: none;
+  }
+  p {
+    font-weight: bold;
+  }
 }
 
 .icon-idea {
@@ -88,9 +100,6 @@ $home_icon_height: 140px;
   }
   svg {
    height: $home_icon_height;
-   * {
-      fill: $color1;
-   }
   }
 }
 .icon-users {
@@ -127,9 +136,6 @@ $home_icon_height: 140px;
   }
   svg {
    height: $home_icon_height;
-   * {
-      fill: $color1;
-   }
   }
 }
 
@@ -153,5 +159,22 @@ $home_icon_height: 140px;
     display: inline-block;
     margin: 0 0.5em 1em 0;
     background-color: transparent;
+  }
+}
+
+.index-questions {
+  background-color: $white;
+  svg {
+    position: relative;
+    z-index: 99;
+    width: 15%;
+    height: auto;
+    margin-top: -7 * $base-spacing;
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .container {
+    border-bottom: none;
   }
 }

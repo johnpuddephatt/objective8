@@ -4,17 +4,12 @@
 
 .footer {
   position: relative;
-  margin: 0 1em 0 1em;
-  padding: 1em 0 1em 0;
-  @include mq($large_device) {
-    margin: 0 auto 0 auto;
-    padding: 1em;
-  }
+  padding: $base-spacing;
 }
 
 .footer-row {
   @include cf;
-  margin-bottom: 1em;
+  margin-bottom: $base-spacing;
 }
 
 .footer-content-links {
@@ -53,8 +48,8 @@
 }
 
 .footer-footer {
-  padding-top: 1em;
-  border-top: 1px solid $grey_1;
-  text-align: right;
+  padding-top: $base-spacing;
+  border-top: 1px solid $white;
+  text-align: center;
 }
 

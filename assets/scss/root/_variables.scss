@@ -1,7 +1,8 @@
 // Required for mixins, functions and helpers
 $doc-font-size  : 16; //used for REM and Breakpoint conversion
-$baselineheight : 1.4; //used for typography and global lineheight
-
+$baselineheight : 1.5; //used for typography and global lineheight
+$headerlineheight: 1.2;
+$baseletterspacing: 0.03rem;
 
 //Font stacks
 $sans-serif     : 'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -12,6 +13,9 @@ $monospace      : Courier, monospace;
 $base-spacing: 1rem;
 $small-spacing: $base-spacing/2;
 
+$h1-font-size: 2 * $base-spacing;
+$h2-font-size: 1.75 * $base-spacing;
+$h3-font-size: 1.5 * $base-spacing;
 
 //Stop FOUT on webfont loading
 .wf-loading h1 {
@@ -23,7 +27,7 @@ $small-spacing: $base-spacing/2;
   font-family: 'Source Sans Pro';
 }
 
-$max_content_width: 40em;
+$max_content_width: 50rem;
 
 // alpha: mobile
 // beta: tabletish

@@ -26,6 +26,10 @@
   font-size: $h3-font-size;
   padding: $small-spacing $base-spacing;
   border-radius: $small-spacing;
+  transition: background-color $base-duration;
+  &:hover {
+    background-color: $offwhite;
+  }
 }
 .tab [type=radio] {
   display: none;

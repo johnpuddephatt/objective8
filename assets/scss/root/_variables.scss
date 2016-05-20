@@ -13,9 +13,11 @@ $monospace      : Courier, monospace;
 $base-spacing: 1rem;
 $small-spacing: $base-spacing/2;
 
-$h1-font-size: 2 * $base-spacing;
+$h1-font-size: 2.25 * $base-spacing;
 $h2-font-size: 1.75 * $base-spacing;
 $h3-font-size: 1.5 * $base-spacing;
+
+$base-duration: 200ms;
 
 //Stop FOUT on webfont loading
 .wf-loading h1 {

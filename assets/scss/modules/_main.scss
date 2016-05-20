@@ -1,3 +1,11 @@
 .main-content {
   min-height: 100%;
+  margin: 0 auto;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.html-home .main-content {
+  margin: 0;
 }

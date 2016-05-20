@@ -8,7 +8,7 @@ block content
     .index-hero
       .container
         include ../images/heroimage.svg
-        h1.index-welcome It’s time to create a plan for making the West Midlands better
+        h1.index-welcome It’s time to create a plan for<br /> making the West Midlands better
 
     .index-intro
       .container
@@ -31,31 +31,19 @@ block content
               span.icon-idea
                 include ../images/lightbulb.svg
             h3 Suggest
-            .info-box-text
-              span(data-l8n="content:index/create-objective-begin") !An
-              =" "
-              span(data-l8n="content:index/create-objective-keyword") !objective
-              =" "
-              span(data-l8n="content:index/create-objective-end") !is an idea to describe the change you want to achieve.
+            p.info-box-text Anyone can submit an objective which describes a change they want to see.
           .grid-column
             .info-box-icon
               span.icon-users
                 include ../images/people.svg
             h3 Debate
-            .info-box-text
-              span(data-l8n="content:index/collaborate-info") !Collaborate by asking and answering questions
+            p.info-box-text Anyone can join the discussion by asking or answering questions.
           .grid-column
             .info-box-icon
               span.icon-comments
                 include ../images/speechbubbles.svg
             h3 Improve
-            .info-box-text
-              span(data-l8n="content:index/draft-info-begin") !Review the writers
-              =" "
-              span(data-l8n="content:index/draft-info-keyword") !drafts
-              =" "
-              span(data-l8n="content:index/draft-info-end") !in an open and transparent way.
-
+            p.info-box-text Objectives are re-drafted, with each new draft reviewed by the community.
         .index-actions
           a.button.objectives-link(href="/objectives", data-l8n="content:index/objectives") !View Objectives
           a.button.index-learn-more(href="/learn-more", data-l8n="content:index/learn-more") !Learn more
@@ -72,7 +60,7 @@ block content
                   p The new mayor will not only control big budgets within the region, they’ll also play a big role in championing the West Midlands outside of the region.
            .tab
                input(type="radio", id="tab-2", name="tab-group-1")
-               label(for="tab-2") What sort of ideas should be going into the plan?
+               label(for="tab-2") What sort of objectives should be going into the plan?
                .content
                  p The West Midlands is a place of opportunity and enterprise, with a proud tradition of trade, manufacturing and innovation. But it lacks good jobs, affordable homes, good transport and long-term investment.
                  p The People’s Plan is about identifying the big challenges we all agree need tackling.
@@ -80,6 +68,6 @@ block content
                input(type="radio", id="tab-3", name="tab-group-1")
                label(for="tab-3") Who's behind The People's Plan?
                .content
-                 p The People’s Plan has been started by Liam Byrne,  MP for Hodge Hill in Birmingham.
-                 p But it is not a party political initiative. It will involve trade union, community groups and as many people as possible from all parties and none.
+                 p The People’s Plan has been started by Liam Byrne, MP for Hodge Hill in Birmingham.
+                 p It’s not a party political initiative, however. It will involve trade union, community groups and as many people as possible from all parties and none.
         include ../images/qa.svg

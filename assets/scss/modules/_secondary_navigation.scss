@@ -3,7 +3,7 @@ $secondary_navigation_height: 80px;
 .secondary-navigation {
   @include cf;
   min-height: $secondary_navigation_height;
-  margin: 0 0 2em 0;
+  margin: -4 * $base-spacing 0 2 * $base-spacing;
   @include mq($smallish_device) {
     margin-bottom: 4em;
   }

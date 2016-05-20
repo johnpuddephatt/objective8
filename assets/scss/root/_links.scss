@@ -24,6 +24,8 @@ a {
     @include revert-visuallyhidden;
     position: absolute;
     background-color: white;
+    width: 12 * $base-spacing;
+    text-align: center;
   }
 
   @include mq-max(768) {

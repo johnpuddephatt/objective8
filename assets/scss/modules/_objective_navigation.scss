@@ -2,6 +2,7 @@ $objective_navigation_height: 80px;
 
 .objective-navigation {
   height: $objective_navigation_height;
+  margin-top: -4 * $base-spacing;
   @include mq($smallish_device) {
     margin-bottom: 2em;
   }

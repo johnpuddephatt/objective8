@@ -34,8 +34,15 @@
 .question-text-link {
   @include word_wrap;
   display: block;
+  color: $black;
   text-decoration: none;
   padding-left: 1.35em;
+  i {
+    color: $color1;
+  }
+  &:visited {
+    color: $black;
+  }
   &:hover {
     text-decoration: none;
     .question-text-link-text {

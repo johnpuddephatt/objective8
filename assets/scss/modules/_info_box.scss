@@ -1,24 +1,4 @@
 .info-box-text {
-  font-size: 1em;
-  text-align: center;
-  padding: 0 3em;
+  padding: 0 $base-spacing;
   margin-bottom: 1em;
-  @include mq($smallish_device) {
-    padding-left: 1.75em;
-    padding-right: 1.75em;
-  }
-  @include mq($large_device) {
-    font-size: 1.1em;
-    line-height: 1.3;
-  }
-}
-.info-box-icon {
-  color: $color3;
-  overflow: hidden;
-  text-align: center;
-  font-size: 6em;
-  margin-bottom: 0.15em;
-}
-.info-box-emphasis {
-  color: $color2_light;
 }

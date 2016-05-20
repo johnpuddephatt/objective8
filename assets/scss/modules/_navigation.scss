@@ -44,6 +44,7 @@
     clear: both;
     width: 100%;
     display: block;
+    font-weight: bold;
     padding: 0 $small-spacing;
     border-bottom: 1px solid rgba($white,0.05);
     &:visited, & {
@@ -67,14 +68,16 @@
     a {
       clear: none;
       width: auto;
-      padding: 0;
+      padding: 0 $small-spacing;
       display: inline-block;
-      margin-right: 2em;
+      margin-right: $base-spacing;
+      color: $black !important;
       border-bottom: none;
+      transition: color $base-duration;
       &:hover, &:focus {
         background-color: transparent;
         color: $black;
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }

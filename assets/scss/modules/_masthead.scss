@@ -23,9 +23,16 @@
 }
 
 .masthead-nav-link {
-  font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.5em;
   float: left;
+  width: 25%;
+  text-align: left;
+  i {
+    color: $color1;
+  }
+  @include mq($medium_device) {
+    width: auto;
+  }
   @include mq($large_device) {
     display: none;
   }
@@ -34,7 +41,7 @@
 .masthead-logo {
   display: inline-block;
   word-break: break-word;
-  max-width: 65%;
+  width: 50%;
   color: $color1 !important;
   font-weight: bold;
   background-image: url('./images/logo.svg');
@@ -61,8 +68,10 @@
 .masthead-user-nav {
   float: right;
   text-align: right;
-  max-width: 25%;
-
+  width: 25%;
+  @include mq($medium_device) {
+    width: auto;
+  }
   @include mq($monster_large_device) {
     max-width: 30%;
   }
@@ -93,7 +102,6 @@
       text-decoration: none;
     }
     &:hover span {
-      text-decoration: underline;
     }
   }
 }
@@ -104,4 +112,23 @@
 
 .masthead-navigation {
   overflow: auto;
+}
+
+.masthead-sign-in {
+  border: 1px solid;
+  text-decoration: none;
+  border-color: $color1;
+  border-radius: 30px;
+  color: $color1 !important;
+  display: inline-block;
+  line-height: 2.5 * $base-spacing;
+  padding: 0 $base-spacing;
+  &:hover {
+    text-decoration: none !important;
+    background-color: $color1;
+    color: $white !important;;
+  }
+  &:visited {
+    text-decoration: none !important;
+  }
 }

@@ -11,12 +11,14 @@
 
 html,
 body {
-  height: 100%;
   overflow-x: hidden;
 }
 
 html {
-  font-size: #{$doc-font-size + px};
+  font-size: #{$doc-font-size * .8 + px};
+  @include mq($medium_device) {
+    font-size: #{$doc-font-size + px};
+  }
   position: relative;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -30,18 +32,26 @@ body {
 }
 
 .middle-container {
-  max-width: .85 * $max_content_width;
-  margin: 4 * $base-spacing auto;
+  margin: 2 * $base-spacing $small-spacing;
+  padding: 0 $small-spacing;
+  @include mq($medium_device) {
+    max-width: .85 * $max_content_width;
+    margin: 4 * $base-spacing auto;
+  }
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
 }
 
 .app-wrapper {
   position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
   z-index: 2;
-  min-height: 100%;
   min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: $white;
   transition: transform 250ms ease-in-out;
 }

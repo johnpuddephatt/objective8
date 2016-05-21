@@ -4,13 +4,14 @@
   &:checked ~ .app-wrapper .site-navigation {
     @include mq-max(768) {
       position: fixed;
-      transform: translateX(-$small_device);
+      transform: translateX(#{$small_device + 'px'});
       display: block;
+      transition: transform $base-duration;
     }
   }
   &:checked ~ .app-wrapper {
     @include mq-max(768) {
-      transform: translateX($small_device);
+      transform: translateX(#{$small_device + 'px'});
       box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
     }
   }
@@ -23,16 +24,17 @@
       position: fixed;
       top: 0;
       left: 0;
-      background: transparent;
+      background: transparentize($black,.5);
     }
   }
+
 }
 
 .site-navigation {
-  width: $small_device;
+  width: #{$small_device + 'px'};
   position: absolute;
   top: 0;
-  left: 0;
+  left:  #{-2 * $small_device + 'px'};
   display: none;
   z-index: 1;
   height: 100%;
@@ -59,6 +61,7 @@
 
   @include mq($large_device) {
     position: relative;
+    left: 0;
     display: inline-block;
     white-space: nowrap;
     z-index: 3;

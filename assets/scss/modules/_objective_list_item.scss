@@ -89,4 +89,29 @@
   &:hover {
     color: $black;
   }
+
+}
+
+.promote-objective-form-container {
+  position: absolute;
+  top:0;
+  right:30px;
+}
+
+.promote-objective-button{
+  @extend .promote-question-button;
+}
+
+.demote-objective-button{
+  @extend .demote-question-button;
+}
+
+.promote-objective-button,
+.demote-objective-button {
+  position: static;
+}
+
+.promoted-objective-info {
+  @extend .label-helper;
+  margin: -0.5em 0 1em 0;
 }

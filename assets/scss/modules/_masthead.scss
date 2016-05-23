@@ -72,6 +72,7 @@
   float: right;
   text-align: right;
   width: 25%;
+  text-transform: lowercase;
   @include mq($medium_device) {
     width: auto;
   }

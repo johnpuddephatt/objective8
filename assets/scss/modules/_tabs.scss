@@ -24,7 +24,8 @@
       right: 0;
       bottom: 0;
       padding: 0 $base-spacing;
-      background-color: $white;
+      opacity: 0;
+
     }
 
     .tab {
@@ -51,6 +52,8 @@
     }
     [type=radio]:checked ~ label ~ .content {
       z-index: 1;
+      opacity: 1;
+
     }
   }
 }

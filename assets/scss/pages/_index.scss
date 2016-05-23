@@ -156,20 +156,12 @@ $home_icon_height: 6.4 * $base-spacing;
 
 .icon-idea {
   @extend %index-icon;
-  .no-svg & {
-    background: image-url('lightbulb.png') no-repeat 50% 0;
-    background-size: contain;
-  }
   svg {
    height: $home_icon_height;
   }
 }
 .icon-users {
   @extend %index-icon;
-  .no-svg & {
-    background: image-url('people.png') no-repeat 50% 0;
-    background-size: contain;
-  }
   svg {
    height: $home_icon_height;
    .color1 * { fill: $color1; }
@@ -179,10 +171,6 @@ $home_icon_height: 6.4 * $base-spacing;
 }
 .icon-comments {
   @extend %index-icon;
-  .no-svg & {
-    background: image-url('speechbubbles.png') no-repeat 50% 0;
-    background-size: contain;
-  }
   svg {
    height: $home_icon_height;
    .color1 { fill: $color1; }
@@ -192,10 +180,7 @@ $home_icon_height: 6.4 * $base-spacing;
 }
 .icon-policy {
   @extend %index-icon;
-  .no-svg & {
-    background: image-url('policy.png') no-repeat 50% 0;
-    background-size: contain;
-  }
+
   svg {
    height: $home_icon_height;
   }
@@ -232,13 +217,15 @@ $home_icon_height: 6.4 * $base-spacing;
   background-color: $white;
   svg {
     position: relative;
-    z-index: 99;
-    width: 65%;
+    width: 70%;
     height: auto;
     margin-top: -6 * $base-spacing;
     display: block;
     margin-right: 0;
     margin-left: auto;
+    @include mq($large_device) {
+      margin-top: -8 * $base-spacing;
+    }
   }
   .container {
     border-bottom: none;

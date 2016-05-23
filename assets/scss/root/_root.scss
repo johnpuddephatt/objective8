@@ -35,7 +35,7 @@ body {
   margin: 2 * $base-spacing $small-spacing;
   padding: 0 $small-spacing;
   @include mq($medium_device) {
-    max-width: .85 * $max_content_width;
+    max-width: .8 * $max_content_width;
     margin: 4 * $base-spacing auto;
   }
 }
@@ -52,10 +52,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: $white;
-  transition: transform 250ms ease-in-out;
-}
-
-.html-home .app-wrapper {
   background-color: $offwhite;
+  transition: transform 250ms ease-in-out;
 }

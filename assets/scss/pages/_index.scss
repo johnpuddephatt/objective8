@@ -7,6 +7,12 @@
       outline: none;
     }
   }
+  h2 {
+    font-size: 1.75 * $base-spacing;
+  }
+  h3 {
+    font-size: 1.5 * $base-spacing;
+  }
 }
 
 .container {
@@ -35,14 +41,19 @@
     }
   }
   svg {
+    width: $max_content_width * 1.25;
     max-width: 100%;
     height: 12 * $base-spacing;
+    margin-top: 2 * $base-spacing;
+    margin-bottom: -$base-spacing;
     @include mq($medium_device) {
       height: 10 * $base-spacing;
-      margin-bottom: $base-spacing;
     }
     @include mq($large_device) {
-      height: 11 * $base-spacing;
+      height: 12 * $base-spacing;
+    }
+    @include mq($extra_large_device) {
+      height: 15 * $base-spacing;
     }
   }
   .index-welcome {
@@ -54,7 +65,6 @@
 .index-intro {
   position: relative;
   z-index: 2;
-  color: $grey-1;
   margin-left: auto;
   margin-right: auto;
   p {
@@ -64,6 +74,9 @@
       width: 45%;
       text-align: left;
       clear: left;
+    }
+    &:last-child {
+      margin-bottom: 0;
     }
   }
   svg {
@@ -126,7 +139,6 @@ $home_icon_height: 6.4 * $base-spacing;
   background-color: $black;
   color: $white;
   text-align: center;
-  padding: 2 * $base-spacing 0;
   .container {
     border-bottom: none;
   }
@@ -134,6 +146,7 @@ $home_icon_height: 6.4 * $base-spacing;
     font-weight: bold;
   }
   h3 {
+    color: $color1;
     margin: $small-spacing 0;
     @include mq($medium_device) {
       margin: $base-spacing 0;
@@ -202,12 +215,16 @@ $home_icon_height: 6.4 * $base-spacing;
   position: relative;
   z-index: 2;
   text-align: center;
+  border-top: 1px solid $grey-1;
+  padding-top: 2 * $base-spacing;
   margin: 0 auto;
-  padding-bottom: 1em;
   a {
     display: inline-block;
-    margin: 0 0.5em 1em 0;
+    margin: 0 $small-spacing;
     background-color: transparent;
+    @include mq($large_device) {
+      margin: 0 $base-spacing;
+    }
   }
 }
 
@@ -216,9 +233,9 @@ $home_icon_height: 6.4 * $base-spacing;
   svg {
     position: relative;
     z-index: 99;
-    width: 15%;
+    width: 65%;
     height: auto;
-    margin-top: -7 * $base-spacing;
+    margin-top: -6 * $base-spacing;
     display: block;
     margin-right: 0;
     margin-left: auto;

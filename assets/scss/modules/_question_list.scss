@@ -5,6 +5,8 @@
   @extend %list-item;
   position: relative;
   font-size: 120%;
+  background-color: white;
+  padding: $base-spacing;
 }
 .question-item-icon {
   position: absolute;

@@ -1,20 +1,31 @@
 %objective-section {
   margin-bottom: 2em;
   @include mq($small_device) {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+  }
+}
+
+.objective-questions, .objective-comments {
+  h2 + p {
+    color: $color1;
+    margin-top: - $small-spacing;
   }
 }
 
 .objective-outline {
   @extend %objective-section;
   position: relative;
+  h2 {
+    font-size: 1.25rem;
+    color: white;
+    border-bottom: 1px solid white;
+    line-height: 2 * $base-spacing;
+  }
 }
 
 .objective-title {
   margin-top: 0;
-  line-height: 1.2;
-  font-family: $sans-serif;
-  letter-spacing: -0.025em;
+  color: $color3;
   @include word_wrap;
   @include mq($large_device) {
     font-size: 2.6em;
@@ -23,7 +34,7 @@
 
 .objective-detail {
   @include word_wrap;
-  font-size: 120%;
+  font-size: 1.25rem;
 }
 
 .objective-title-label {
@@ -40,6 +51,11 @@
 
 .objective-questions {
   @extend %objective-section;
+  @include mq($small_device) {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid $color4;
+  }
 }
 
 .objective-questions-guidance {
@@ -78,6 +94,7 @@
     margin-top: 0;
     border-top: 0;
   }
+
 }
 .objective-star-container {
   position: absolute;

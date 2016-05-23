@@ -3,7 +3,7 @@
   .tab label {
         font-weight: bold;
         color: $color1;
-        font-size: $h3-font-size;
+        font-size: 1.5 * $base-spacing;
   }
   .tab [type=radio] {
     display: none;
@@ -37,15 +37,17 @@
       left: -$base-spacing;
       padding: $small-spacing $base-spacing;
       border-radius: $small-spacing;
-      transition: background-color $base-duration;
+      transition: color $base-duration, text-decoration $base-duration;
       &:hover {
-        background-color: $offwhite;
+        color: $color3;
+        text-decoration: underline;
       }
     }
 
     [type=radio]:checked ~ label {
       z-index: 2;
-      background-color: $offwhite;
+      color: $color3;
+      text-decoration: underline;
     }
     [type=radio]:checked ~ label ~ .content {
       z-index: 1;

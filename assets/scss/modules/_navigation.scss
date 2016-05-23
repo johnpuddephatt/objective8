@@ -49,6 +49,7 @@
     font-weight: bold;
     padding: 0 $small-spacing;
     border-bottom: 1px solid rgba($white,0.05);
+    transition: outline 2 * $base-spacing;
     &:visited, & {
       color: inherit;
     }
@@ -57,6 +58,10 @@
       color: $black;
       text-decoration: none;
     }
+    &:focus {
+      outline-offset: -4px;
+    }
+
   }
 
   @include mq($large_device) {
@@ -79,8 +84,8 @@
       transition: color $base-duration;
       &:hover, &:focus {
         background-color: transparent;
-        color: $black;
-        text-decoration: none;
+        color: $color1 !important;
+        text-decoration: underline;
       }
     }
   }

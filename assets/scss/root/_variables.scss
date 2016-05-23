@@ -14,8 +14,8 @@ $base-spacing: 1rem;
 $small-spacing: $base-spacing/2;
 
 $h1-font-size: 2.25 * $base-spacing;
-$h2-font-size: 1.75 * $base-spacing;
-$h3-font-size: 1.5 * $base-spacing;
+$h2-font-size: 1.25 * $base-spacing;
+$h3-font-size: 1 * $base-spacing;
 
 $base-duration: 200ms;
 
@@ -29,7 +29,7 @@ $base-duration: 200ms;
   font-family: 'Source Sans Pro';
 }
 
-$max_content_width: 50rem;
+$max_content_width: 56rem;
 
 // alpha: mobile
 // beta: tabletish

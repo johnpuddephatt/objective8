@@ -4,7 +4,7 @@ $progress_indicator_height: 40px;
   margin: 0 auto $default_block_spacing auto;
   padding: 0 1em;
   list-style: none;
-  text-align: center;
+  text-align: left;
   @include mq($small_device) {
     padding-left: 0;
     padding-right: 0;
@@ -12,6 +12,7 @@ $progress_indicator_height: 40px;
   li {
     display: inline-block;
     margin: 0 -2px;
+    text-align: center;
     width: 50%;
     padding: 0;
     background-color: $grey-4;

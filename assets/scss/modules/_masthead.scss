@@ -9,6 +9,7 @@
   line-height: 4 * $base-spacing;
   @include mq($large_device) {
     text-align: left;
+    padding: 0 2 * $base-spacing;
   }
   a {
     color: inherit;
@@ -50,6 +51,8 @@
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
+  outline-offset: -4px;
+
   @include mq($large_device) {
     margin-right: 1em;
     max-width: 20%;

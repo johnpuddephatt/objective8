@@ -5,11 +5,13 @@
 .footer {
   position: relative;
   padding: $base-spacing;
+  text-align: center;
 }
 
 .footer-row {
   @include cf;
   margin-bottom: $base-spacing;
+
 }
 
 .footer-content-links {

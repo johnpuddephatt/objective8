@@ -1,7 +1,11 @@
 .objective-list-item {
   position: relative;
-  border-bottom: 1px solid $grey-3;
-  margin-bottom: 24px;
+  border-bottom: $small-spacing solid $offwhite;
+  background-color: white;
+  padding: $base-spacing;
+  p {
+    margin-bottom: 0;
+  }
   &:last-child {
     border-bottom: none;
   }
@@ -12,8 +16,6 @@
   text-decoration: none;
   display: inline-block;
   margin-right: 3em;
-  padding-bottom: 1.5em;
-  border-bottom: 3px solid transparent;
   color: $default_text_color;
   &:focus {
     background-color: transparent;
@@ -50,8 +52,8 @@
 
 .objective-list-item-removal-container {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: $small-spacing;
+  right: $small-spacing;
 }
 
 .objective-list-item-removal-button {
@@ -66,7 +68,7 @@
   margin: 0 0 0.2em;
   font-size: 1.3em;
   line-height: 1.2;
-  color: $black;
+  color: $color4;
   @include word_wrap;
 }
 
@@ -83,5 +85,8 @@
   word-wrap: break-word;
   &:empty {
     display: none;
+  }
+  &:hover {
+    color: $black;
   }
 }

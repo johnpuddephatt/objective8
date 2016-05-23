@@ -82,20 +82,7 @@ html.no-js(lang="!en", class="#{htmlClass}", data-l8n="attr/lang:base/language")
         footer
           .footer-container
             .footer
-              .footer-row
-                ul.footer-content-links
-                  li
-                    a.footer-link(href="/learn-more", data-l8n="content:footer/about-link") !About
-                  li
-                    a.footer-link(href="/admin-activity", data-l8n="content:footer/deleted-link") !Deleted Content
-                  li
-                    a.footer-link(href="https://github.com/d-cent/objective8")
-                      | Github
-                      = " "
-                      i.fa.fa-github
-                .footer-content-text.footer-alpha-warning(data-l8n="content:footer/alpha-warning") !ALPHA: this is a testing version of Objective8 data and content may change several times a day
-              .footer-footer
-                a.footer-link(data-l8n="content:footer/dcent-link", href="http://dcentproject.eu/") !DCENT
+              a.footer-link(href="http://dcentproject.eu/") Part of the DCENT project
 
     +javascriptIncludeTag("scripts.min")
     block footerScripts

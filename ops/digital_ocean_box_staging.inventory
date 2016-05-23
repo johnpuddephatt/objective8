@@ -1,10 +1,10 @@
-default ansible_ssh_host=objective8-staging.dcentproject.eu
+default ansible_ssh_host=107.170.90.157
 
 [digital_ocean_box]
 default
 
 [digital_ocean_box:vars]
-site_address="https://objective8-staging.dcentproject.eu"
+site_address="https://stage.peoplesplan.co.uk"
 cert_location="secure/objective8.crt"
 cert_key_location="secure/objective8.key"
-external_jwk_set_url="https://objective8-staging.dcentproject.eu/as2/jwk-set"
+external_jwk_set_url="https://stage.peoplesplan.co.uk/as2/jwk-set"

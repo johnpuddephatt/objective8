@@ -82,11 +82,17 @@
 
   i {
     font-size: 1.5em;
-    display: none;
+    @include mq($extra_large_device) {
+      display: none;
+    }
   }
   span {
     vertical-align: top;
     word-break: break-all;
+    display: none;
+    @include mq($extra_large_device) {
+      display: block;
+    }
     @include mq($large_device) {
       padding: 0;
       margin-left: auto;

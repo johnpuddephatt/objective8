@@ -227,7 +227,7 @@ $home_icon_height: 6.4 * $base-spacing;
       margin-top: -8 * $base-spacing;
     }
   }
-  .container {
+  .container:last-child {
     border-bottom: none;
   }
 }

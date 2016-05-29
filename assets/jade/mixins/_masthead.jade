@@ -5,7 +5,7 @@ mixin statusBar
 
 mixin flashMessageSuccessBar
   .flash-message-success.clj-flash-message-bar.func--flash-bar
-    p.clj-flash-message-bar-text 
+    p.clj-flash-message-bar-text
       block
 
 mixin mastheadNavigation()
@@ -13,6 +13,7 @@ mixin mastheadNavigation()
     a.func--objectives(href="/objectives", title="!Go to the Objectives list", data-l8n="attr/title:masthead/objectives-link-title-attr content:masthead/objectives-link") !View Objectives
     a(href="/objectives/create", title="!Create an Objective", data-l8n="attr/title:masthead/create-link-title-attr content:masthead/create-link") !Create an Objective
     a(href="/learn-more", title="!Learn more about Objective[8]", data-l8n="attr/title:masthead/about-link-title-attr content:masthead/about-link") !About
+    a(href="https://westmidsblog.peoplesplan.co.uk", title="Visit the People’s Plan blog") Blog
 
 mixin mastheadContents()
   label.masthead-nav-link(for="nav-trigger")

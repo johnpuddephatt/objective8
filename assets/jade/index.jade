@@ -13,12 +13,12 @@ block content
     .index-intro
       .container
         include ../images/westmidsmap.svg
-        p Next year we’ll see the biggest shift of power from Westminster to the West Midlands ever seen. That’s because in May 2017 the people of the West Midlands will choose a Metro Mayor for the region.
+        p Next year we’ll see the biggest shift of power from Westminster to the West Midlands that’s ever been seen. That’s because in May 2017 the people of the West Midlands will choose a Metro Mayor for the region.
         p We think it’s time to create a plan that sets out the changes we want to see, whether that’s making the region richer, fairer, greener or better connected.
 
     .index-quote
       .container
-        h2 “The metro mayor will be elected to control big budgets and make big decisions. They’ll play a big role in shaping the future of where we live.”
+        h2 “The Metro Mayor will be elected to control big budgets and make big decisions. They’ll play a big role in shaping the future of where we live.”
         include ../images/quoteillustration.svg
 
     .index-steps
@@ -54,9 +54,9 @@ block content
         .tabs
            .tab
                input(type="radio", id="tab-1", name="tab-group-1", checked)
-               label(for="tab-1") Will the metro mayor make a difference?
+               label(for="tab-1") Will the Metro Mayor make a difference?
                .content
-                  p Choosing the right metro mayor – one with a clear understanding of what we want for the West Midlands – will make a massive difference.
+                  p Choosing the right Metro Mayor – one with a clear understanding of what we want for the West Midlands – will make a massive difference.
                   p The new mayor will not only control big budgets within the region, they’ll also play a big role in championing the West Midlands outside of the region.
            .tab
                input(type="radio", id="tab-2", name="tab-group-1")
@@ -69,5 +69,9 @@ block content
                label(for="tab-3") Who’s behind The People’s Plan?
                .content
                  p The People’s Plan has been started by Liam Byrne, MP for Hodge Hill in Birmingham.
-                 p It’s not a party political initiative, however. It will involve trade union, community groups and as many people as possible from all parties and none.
+                 p It’s not a party political initiative, however. It will involve trade unions, community groups and as many people as possible from all parties and none.
         include ../images/qa.svg
+
+  script(src="https://westmidsblog.peoplesplan.co.uk/shared/ghost-url.min.js?v=4f7c08f541")
+  script.
+    ghost.init({clientId: "ghost-frontend",clientSecret: "1b1ee89031a7"});

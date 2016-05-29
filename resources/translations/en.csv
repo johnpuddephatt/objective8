@@ -1,18 +1,18 @@
 base,language,en
 masthead,show-navigation,Show navigation
 masthead,logo-title-attr,Go to home page
-masthead,objectives-link-title-attr,Go to the Objectives list
-masthead,objectives-link,View Objectives
+masthead,objectives-link-title-attr,Go to the ideas list
+masthead,objectives-link,See ideas
 masthead,about-link-title-attr,Learn more about %app-name%
 masthead,about-link,About
-masthead,create-link-title-attr,Create an Objective
-masthead,create-link,Create an Objective
+masthead,create-link-title-attr,Propose your idea
+masthead,create-link,Propose your idea
 masthead,navigation-title,Navigation
 masthead,skip-to-content,Skip to content
 status-bar,status-text,ALPHA: This is a testing build of %app-name%. Features and data may change several times a day.
 sign-in,doc-title,Sign in or Sign up | %app-name%
 sign-in,doc-description,Sign in or Sign up to %app-name%
-sign-in,page-title,Sign in or Sign up
+sign-in,page-title,Sign in or sign up
 sign-in,sign-in-with-twitter,Sign in with Twitter
 sign-in,sign-in-with-facebook,Sign in with Facebook
 sign-in,twitter-helper-text,We will never post to Twitter without your permission.
@@ -30,16 +30,16 @@ sign-up,email-empty-validation-message,You must enter an email address
 sign-up,email-invalid-validation-message,The email address you have entered is invalid
 sign-up,button,Create account
 sign-up,auth-email-invalid-message,"The email address from your account could not be retrieved, please type it below."
-objective-guidance,heading,What is an Objective?
+objective-guidance,heading,What is an idea?
 objective-guidance,text-line-1,A policy starts with an idea.
 objective-guidance,text-line-2,These are catalysts for change.
 objective-guidance,text-line-3,Everyone can comment and make suggestions to contribute towards the draft stage.
-objectives-guidance,heading,What are objectives?
+objectives-guidance,heading,What are ideas?
 objectives-guidance,text-line-1,%app-name% centers its policy drafting process around objectives.
-objectives-guidance,text-line-2,An objective is a change that could be achieved by introducing new policy.
-create-objective-guidance,heading,Creating an objective
-create-objective-guidance,item-1,"An objective is a change that could be achieved by introducing new policy. For example: improving access to public housing, or increasing the safety of our roads."
-create-objective-guidance,item-2,Share your objective to encourage collaboration.
+objectives-guidance,text-line-2,An idea is a change that could be achieved by introducing new policy.
+create-objective-guidance,heading,Proposing an idea
+create-objective-guidance,item-1,"An idea is a change that could be achieved by introducing new policy. For example: improving access to public housing, or increasing the safety of our roads."
+create-objective-guidance,item-2,Share your idea to encourage debate.
 draft-guidance,heading,What is a draft?
 draft-guidance,text-line-1,Drafts are versions of the policy as it is being written.
 draft-guidance,text-line-2,Drafts are crafted by the writers that have been nominated for an objective.
@@ -50,31 +50,31 @@ index,index-welcome,Collaborative policy making for democratic organisations.
 index,index-get-started-title,Objectives
 index,index-intro,"Gather community opinion, generate ideas, share, discuss, vote and collaborate with experts to draft new policy."
 index,create-objective-begin,A policy starts with an
-index,create-objective-keyword,objective
+index,create-objective-keyword,idea
 index,create-objective-end,which describes the change the organisation wants to achieve.
-index,collaborate-info,"Writers and the community work together to shape the objective by asking and answering questions."
+index,collaborate-info,"Writers and the community work together to shape the idea by asking and answering questions."
 index,draft-info-begin,The policy is written in
 index,draft-info-keyword,drafts
 index,draft-info-end,and each one is reviewed by the community.
 index,draft-finished,The finished Policy
 index,draft-finished-info,is published!
-index,objectives,View Objectives
+index,objectives,View ideas
 index,learn-more,Learn more
-objective-list,doc-title,Objectives | %app-name%
+objective-list,doc-title,Ideas | %app-name%
 objective-list,doc-description,
-objective-list,page-title,Objectives
-objective-list,promoted-objective-information,There is a limit of three promoted objectives.
-objective-list,promoted-subtitle,Promoted objectives
+objective-list,page-title,Ideas
+objective-list,promoted-objective-information,There is a limit of three promoted ideas.
+objective-list,promoted-subtitle,Promoted ideas
 objective-list,promote-button,Promote
 objective-list,demote-button,Demote
-objective-list,create-objective-link,Create an objective
-objective-list,subtitle,Recently created objectives
-objective-list,drafting-begins,La redacción empieza en
-objective-list,days,días
-objective-list,drafting-started,La redacción ha comenzado
-create-objective,doc-title,Create an Objective | %app-name%
+objective-list,create-objective-link,Propose your idea
+objective-list,subtitle,Recent ideas
+objective-list,drafting-begins,Drafting begins is
+objective-list,days,days
+objective-list,drafting-started,Drafting has started
+create-objective,doc-title,Propose your idea | %app-name%
 create-objective,doc-description,
-create-objective,page-title,Create an objective
+create-objective,page-title,Propose your idea
 create-objective,headline,Headline
 create-objective,headline-prompt,A headline should encourage contribution or discussion
 create-objective,goals,Goals
@@ -88,7 +88,7 @@ create-objective,title-length-validation-message,The objective title must be bet
 create-objective,description-empty-validation-message,Please enter a description for your objective
 create-objective,description-length-validation-message,The objective description can have at most 5000 characters
 draft,doc-title,Policy draft | %app-name%
-draft,doc-description,Draft policy for objective ... 
+draft,doc-description,Draft policy for objective ...
 draft,add-a-draft,Add a draft
 draft,import-draft,Import a draft from Google Drive
 draft,no-drafts,No drafts have been submitted yet
@@ -111,7 +111,7 @@ draft-list,doc-title,Drafts | %app-name%
 draft-list,doc-description,
 draft-list,objective,Objective
 draft-list,drafts,Drafts
-draft-list,drafts-for,Drafts for: 
+draft-list,drafts-for,Drafts for:
 draft-list,no-drafts,No drafts have been submitted yet
 draft-list,latest-draft,Latest draft
 draft-list,previous-versions,Previous versions
@@ -152,7 +152,7 @@ writer-dashboard,starred-stat-title,Starred
 writer-dashboard,questions-navigation-title,Questions
 writer-dashboard,comments-navigation-title,Comments
 writer-dashboard,annotations-navigation-title,Annotations
-writer-dashboard,no-questions-message,No questions have been asked for this objective.
+writer-dashboard,no-questions-message,No questions have been asked for this idea.
 writer-dashboard,no-answers-message,No answers were provided for this question.
 writer-dashboard,no-answers-with-writer-notes-message,There are no answers with writer notes for this question.
 writer-dashboard,no-comments-message,There are no comments on this piece of content.
@@ -166,14 +166,14 @@ writer-dashboard,up-votes,Sort by up votes
 writer-dashboard,down-votes,Sort by down votes
 writer-dashboard,writer-replies,Sort by writer replies
 dashboard-questions,doc-title,Writer dashboard | %app-name%
-dashboard-questions,doc-description,A summary of engagement with questions and answers for this objective
+dashboard-questions,doc-description,A summary of engagement with questions and answers for this idea
 dashboard-annotations,doc-title,Writer dashboard | %app-name%
 dashboard-annotations,doc-description,A summary of annotations for drafts
 dashboard-comments,doc-title,Writer dashboard | %app-name%
-dashboard-comments,doc-description,A summary of discussions about this objective and related drafts
+dashboard-comments,doc-description,A summary of discussions about this idea and related drafts
 dashboard-comments,latest-draft-label,Latest
 dashboard-comments,draft-label-prefix,Draft
-dashboard-comments,objective-label,Objective
+dashboard-comments,objective-label,Idea
 comment-create,comment-title,Comments are a maximum length of 500 characters
 comment-create,post-button,Add a comment
 comment-create,comment-label,Your comment
@@ -194,11 +194,11 @@ objective-nav,questions,Questions
 objective-nav,title,Navigation for
 objective-nav,back-to-top,Back to top
 objective-nav,details,Details
-objective-nav,objective,Objective
+objective-nav,objective,Idea
 objective-nav,writers,Writers
 objective-nav,comments,Comments
 objective-nav,drafts,Drafts
-objective-nav,back-to-objective,Back to objective
+objective-nav,back-to-objective,Back to idea
 draft-nav,back-to-draft,Back to draft
 answer-sign-in,please,Please
 answer-sign-in,sign-in,sign-in
@@ -230,7 +230,7 @@ learn-more,doc-description,
 learn-more,page-title,%app-name% 101
 learn-more,sub-title,What are the basics?
 learn-more,page-intro,%app-name% is a platform to enable collaborative policy making for democratic organisations.
-learn-more,page-content!,"<p><b>Policy</b> is used by governments and organisations to make consistent and fair decisions in order to achieve desired outcomes.</p><p>An <b>objective</b> is a change that could be achieved by introducing new policy.  For example: improving access to public housing, or increasing the safety of our roads.</p><p><b>Writers</b> work with each other and the community to draft policy.  They use the crowdsourced questions, answers and comments to produce <b>policy drafts</b>.  These are further refined through cycles of feedback and redrafting.</p><p>You can get involved and have your say by creating and sharing objectives, offering your opinion through <b>comments</b>, asking and answering <b>questions</b>, suggesting policy writers, or even providing feedback on the policy drafts themselves.  The whole process is open and transparent.</p>"
+learn-more,page-content!,"<p><b>Policy</b> is used by governments and organisations to make consistent and fair decisions in order to achieve desired outcomes.</p><p>An <b>idea</b> is a change that could be achieved by introducing new policy.  For example: improving access to public housing, or increasing the safety of our roads.</p><p><b>Writers</b> work with each other and the community to draft policy.  They use the crowdsourced questions, answers and comments to produce <b>policy drafts</b>.  These are further refined through cycles of feedback and redrafting.</p><p>You can get involved and have your say by creating and sharing ideas, offering your opinion through <b>comments</b>, asking and answering <b>questions</b>, suggesting policy writers, or even providing feedback on the policy drafts themselves.  The whole process is open and transparent.</p>"
 learn-more,get-started-button-text,Get started
 learn-more,get-started-button-title,Get started
 invitation-sign-in,sign-in,sign in
@@ -239,33 +239,33 @@ invitation-sign-in,to,to invite a policy writer.
 objective-view,latest-draft,Latest draft
 objective-view,details,Details
 objective-view,goals-label,Goals
-objective-view,created-message,Your objective has been created!
+objective-view,created-message,Your idea has been created!
 objective-view,doc-title,Objective | %app-name%
 objective-view,background-label,Background
-objective-view,doc-description,Objective  ...
+objective-view,doc-description,Idea  ...
 objective-view,writers,Writers
 objective-view,invite-a-writer,Invite a writer
-objective-view,question-section-title,Help to turn this objective into a policy
+objective-view,question-section-title,Help to turn this idea into a policy
 objective-view,question-how-it-works-title,How it works
-objective-view,question-how-it-works-1,A policy starts with an objective
+objective-view,question-how-it-works-1,A policy starts with an idea
 objective-view,question-how-it-works-2,Questions provide evidence for the policy
 objective-view,question-how-it-works-3,Anyone can answer a question and agree or disagree with an answer
 objective-view,question-how-it-works-4,The answers will be used by the writers when drafting the policy
 objective-view,objective-questions-title,Questions
-objective-view,objective-questions-helper-text,These questions have been chosen by the writers because the results are important to the objective.
-objective-view,no-objective-questions,The writers for this objective have not promoted any questions yet.
+objective-view,objective-questions-helper-text,These questions have been chosen by the writers because the results are important to the idea.
+objective-view,no-objective-questions,The writers for this idea have not promoted any questions yet.
 objective-view,community-questions-title,Questions from the community
 objective-view,community-questions-helper-text,These questions have been suggested by the community. The answers may be useful for drafting the policy.
 objective-view,answer-link,Answers
 objective-view,ask-a-question,Suggest a question
-objective-view,comments,Recent comments for this objective
-objective-view,comment-box-label-title,Want to discuss the objective?
+objective-view,comments,Recent comments for this idea
+objective-view,comment-box-label-title,Want to discuss the idea?
 objective-view,comment-box-label-helper,You can leave a comment here.
 objective-view,comment-post-button,Add a comment
 objective-view,comment-history,More comments
-objective-view,star,Star this objective
+objective-view,star,Star this idea
 objective-comments,title-prefix,Comments for
-objective-comments,doc-description,Comment history for objective
+objective-comments,doc-description,Comment history for idea
 objective-comments,comments,Comments
 objective-comments,of,of
 question-list,question-list-heading,Recently asked questions
@@ -333,7 +333,7 @@ invite-writer,section-title,Invite a policy writer for:
 invite-writer,writer-name-label,Writer name
 invite-writer,writer-email-label,Writer email
 invite-writer,writer-reason-label,"They should help draft this policy, because:"
-invite-writer,writer-reason-label-helper,"This will be displayed on the objective writer list"
+invite-writer,writer-reason-label-helper,"This will be displayed on the idea writer list"
 invite-writer,writer-name-attr-title,Writer names are a maximum length of 50 characters
 invite-writer,writer-email-attr-title,Writer email must be valid email address
 invite-writer,writer-reason-attr-title,Reasons are a maximum length of 1000 characters
@@ -361,23 +361,23 @@ sharing,linked-in-link-title,Share this page on LinkedIn
 share-question-modal,heading,Question created
 share-question-modal,helper-text,Share your question to increase the number of answers
 share-question-modal,share-by-url-label,Share this link:
-share-objective-modal,heading,Objective created
-share-objective-modal,helper-text,Build community engagement around your objective by sharing it
+share-objective-modal,heading,Idea created
+share-objective-modal,helper-text,Build community engagement around your idea by sharing it
 share-objective-modal,share-by-url-label,Share this link:
 invitation-modal,guidance-text-line-1,Your writer's invitation
 invitation-modal,guidance-text-line-2,To complete your invitation
 invitation-modal,guidance-text-line-3,Alternatively send the writer this link:
 invitation-modal,mail-to-text,send email
 invitation-modal,email-subject,You have been invited to help draft some policy!
-invitation-modal,email-body-line-1,I have invited you to help draft some policy on this objective:
+invitation-modal,email-body-line-1,I have invited you to help draft some policy on this idea:
 invitation-modal,email-body-line-2,Please follow the link below for more information and to accept the invitation
 base,project-status!,"ALPHA: We are still testing, <a href=""/project-status"" title=""Find out more about our project status"">find out more</a>"
 base,header-logo-title,Go to home page
 base,header-logo-text,%app-name%
 base,browsehappy!,"You are using an <strong>outdated</strong> browser. Please <a href=""http://browsehappy.com/"">upgrade your browser</a> to improve your experience."
 question-create,doc-title,Add a question | %app-name%
-question-create,doc-description,Add a question to this objective
-question-create,add-a-question,Add a question to this objective
+question-create,doc-description,Add a question to this idea
+question-create,add-a-question,Add a question to this idea
 question-create,guidance-heading,Tips for questions
 question-create,guidance-text,"Be focused and specific, as the answers will influence the policy drafting process."
 question-create,question-title,Questions are a maximum length of 500 characters
@@ -385,11 +385,11 @@ question-create,question-label,Question
 question-create,post-button,Add question
 question-create,question-length-validation-message,The question must be between 10 and 500 characters
 invitation-response,page-title,You've been invited to help draft some policy!
-invitation-response,help-achieve,Can you help us to draft some policy to achieve this objective:
+invitation-response,help-achieve,Can you help us to draft some policy to achieve this idea:
 invitation-response,rsvp-text,"If you're interested, you can sign in and accept the invitation below."
 invitation-response,sign-in-to-accept,Sign in to accept
 invitation-response,decline,Decline
-invitation-response,accept,Accept 
+invitation-response,accept,Accept
 invitation-response,banner-message,Respond to your invitation to help draft policy
 invitation-response,expired-banner-message,This invitation has expired
 invitation-response,invitation-declined-banner-message,Invitation declined
@@ -397,10 +397,10 @@ create-profile,doc-title,Create profile | %app-name%
 create-profile,doc-description,
 create-profile,page-title,Create a writer profile
 create-profile,profile-intro,"Your profile is open for everyone to read.  You should talk about your writing experience. Include your areas of policy expertise."
-create-profile,name-label,Name: 
+create-profile,name-label,Name:
 create-profile,name-length-validation-message,The name has a maximum length of 50 characters
 create-profile,name-empty-validation-message,The name cannot be empty
-create-profile,biography,Biography: 
+create-profile,biography,Biography:
 create-profile,biog-length-validation-message,The biography has a maximum length of 5000 characters
 create-profile,biog-empty-validation-message,The biography cannot be empty
 create-profile,button,Create profile
@@ -408,10 +408,10 @@ edit-profile,doc-title,Edit profile | %app-name%
 edit-profile,doc-description,
 edit-profile,page-title,Edit your writer profile
 edit-profile,profile-intro,"Your profile is open for everyone to read.  You should talk about your writing experience. Include your areas of policy expertise."
-edit-profile,name-label,Name: 
+edit-profile,name-label,Name:
 edit-profile,name-length-validation-message,The name has a maximum length of 50 characters
 edit-profile,name-empty-validation-message,The name cannot be empty
-edit-profile,biography,Biography: 
+edit-profile,biography,Biography:
 edit-profile,biog-length-validation-message,The biography has a maximum length of 5000 characters
 edit-profile,biog-empty-validation-message,The biography cannot be empty
 edit-profile,button,Update profile
@@ -420,13 +420,13 @@ profile,page-title,Writer profile
 profile,joined,Joined
 profile,no-profile-message,This user has not created a writer profile yet
 profile,edit-profile,Edit profile
-profile,objective-list,is a writer for these Objectives
+profile,objective-list,is a writer for these Ideas
 profile,dashboard-link,Dashboard
 policy,contributors-title,Policy Contributors
 admin-removal-confirmation,doc-title,Are you sure? | %app-name%
 admin-removal-confirmation,doc-description,Confirm removal of this content
 admin-removal-confirmation,page-title,Please confirm
-admin-removal-confirmation,are-you-sure,Are you sure you want to remove this objective:
+admin-removal-confirmation,are-you-sure,Are you sure you want to remove this idea:
 admin-removal-confirmation,no,No
 admin-removal-confirmation,yes,Yes
 admin-activity,doc-title,Admin activity | %app-name%

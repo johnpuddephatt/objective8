@@ -38,19 +38,20 @@ mixin objectiveListItem(objectiveTitle, numberOfDays)
           button.objective-list-item-removal-button.func--remove-objective(type="submit")
             i.fa.fa-trash-o.fa-lg
       .clj-promote-objective-form-container.promote-objective-form-container
-        if blocks.buttonList
-          - blocks.buttonList()
+        if blocks.promotionButton
+          - blocks.promotionButton()
 
-
-mixin objectiveListItemWithPromoteForm(objectiveTitle, numberOfDays)
-  +objectiveListItem(objectiveTitle, numberOfDays)
-    block
-    +set('buttonList')
-      +promoteObjectiveForm()
 
 mixin objectiveListItemWithDemoteForm(objectiveTitle, numberOfDays)
   +objectiveListItem(objectiveTitle, numberOfDays)
     block
-    +set('buttonList')
+    +set('promotionButton')
       +demoteObjectiveForm()
+
+mixin objectiveListItemWithPromoteForm(objectiveTitle, numberOfDays)
+  +objectiveListItem(objectiveTitle, numberOfDays)
+    block
+    +set('promotionButton')
+      +promoteObjectiveForm()
+
 

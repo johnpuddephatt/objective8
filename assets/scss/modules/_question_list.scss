@@ -16,6 +16,7 @@
   top: 0;
   left: 0;
   line-height: 1.5;
+  font-size: 2em;
 }
 .question-meta {
   @extend %list-item-meta;
@@ -41,7 +42,7 @@
   display: block;
   color: $black;
   text-decoration: none;
-  padding-left: 1.35em;
+  padding-left: 2em;
   i {
     color: $color1;
   }
@@ -65,10 +66,27 @@
   font-size: 0.75em;
   color: $grey-15;
   text-decoration: none;
+  margin-top: 1em;
+  &:after {
+    content: 'Add your answer';
+    display: inline-block;
+    margin-left: 1em;
+    color: #EDB569;
+    border: 1px solid #EDB569;
+    padding: 0 .5em;
+    border-radius: 50px;
+    transition: 200ms;
+    &:hover {
+      background-color: #EDB569;
+      color: white;
+    }
+  }
 }
 
 .question-actions {
   @extend .list-item-actions;
+  float: right;
+  margin-top: -1.5em;
 }
 .question-reply {
   @extend %list-item-reply-button;

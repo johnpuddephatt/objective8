@@ -9,7 +9,7 @@ masthead,create-link-title-attr,Propose your idea
 masthead,create-link,Propose your idea
 masthead,navigation-title,Navigation
 masthead,skip-to-content,Skip to content
-status-bar,status-text,Hold tight, The People’s Plan has just launched!
+status-bar,status-text,Hold tight. The People’s Plan has just launched!
 sign-in,doc-title,Sign in or Sign up | %app-name%
 sign-in,doc-description,Sign in or Sign up to %app-name%
 sign-in,page-title,Sign in or sign up
@@ -82,7 +82,7 @@ create-objective,goal-2,Goal 2
 create-objective,goal-3,Goal 3
 create-objective,goals-prompt,A goal is what you’d like your change to achieve
 create-objective,background,Idea description
-create-objective,background-prompt,Tell us why your idea is important, but keep it brief – a long description will make it harder for people to engage with your idea.
+create-objective,background-prompt,"Tell us why your idea is important, but keep it brief – a long description will make it harder for people to engage with your idea.""
 create-objective,submit-text,Create
 create-objective,title-length-validation-message,The idea title must be between 3 and 120 characters
 create-objective,description-empty-validation-message,Please enter a description for your idea

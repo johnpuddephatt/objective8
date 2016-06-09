@@ -7,6 +7,9 @@
   font-size: 120%;
   background-color: white;
   padding: $base-spacing;
+  @include mq($large_device) {
+    padding: 1.5 * $base-spacing;
+  }
 }
 .question-item-icon {
   position: absolute;
@@ -29,7 +32,7 @@
   color: $link-colour;
   padding-right: 2em;
   @include mq($large_device) {
-    padding-right: 3em;
+    padding-right: 0em;
   }
 }
 

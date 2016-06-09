@@ -82,7 +82,7 @@ create-objective,goal-2,Goal 2
 create-objective,goal-3,Goal 3
 create-objective,goals-prompt,A goal is what you’d like your change to achieve
 create-objective,background,Idea description
-create-objective,background-prompt,"Tell us why your idea is important, but keep it brief – a long description will make it harder for people to engage with your idea.""
+create-objective,background-prompt,"Tell us why your idea is important, but keep it brief – a long description will make it harder for people to engage with your idea."
 create-objective,submit-text,Create
 create-objective,title-length-validation-message,The idea title must be between 3 and 120 characters
 create-objective,description-empty-validation-message,Please enter a description for your idea

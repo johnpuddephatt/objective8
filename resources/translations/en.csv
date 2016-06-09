@@ -9,7 +9,7 @@ masthead,create-link-title-attr,Propose your idea
 masthead,create-link,Propose your idea
 masthead,navigation-title,Navigation
 masthead,skip-to-content,Skip to content
-status-bar,status-text,Hold tight! People’s Plan has just launched.
+status-bar,status-text,Hold tight, The People’s Plan has just launched!
 sign-in,doc-title,Sign in or Sign up | %app-name%
 sign-in,doc-description,Sign in or Sign up to %app-name%
 sign-in,page-title,Sign in or sign up
@@ -17,7 +17,7 @@ sign-in,sign-in-with-twitter,Sign in with Twitter
 sign-in,sign-in-with-facebook,Sign in with Facebook
 sign-in,twitter-helper-text,We will never post to Twitter without your permission.
 sign-in,facebook-helper-text,We will never post to Facebook without your permission.
-sign-in,twitter-and-facebook-helper-text,We will never post to Twitter or Facebook without your permission.
+sign-in,twitter-and-facebook-helper-text, Sign in with Facebook or Twitter below. Not a Twitter or Facebook user? We’ll be adding new sign in options very soon.
 sign-in,sign-in-with-d-cent,Sign in with %stonecutter-name%
 sign-up,doc-title,Sign up | %app-name%
 sign-up,doc-description,
@@ -37,7 +37,7 @@ objective-guidance,text-line-3,Everyone can comment and make suggestions to cont
 objectives-guidance,heading,What are ideas?
 objectives-guidance,text-line-1,%app-name% centers its drafting process around ideas.
 objectives-guidance,text-line-2,An idea is a change that someone wants to see.
-create-objective-guidance,heading,Proposing an idea
+create-objective-guidance,heading,Submitting an idea
 create-objective-guidance,item-1,"An idea is a change that someone wants to see. For example: improving access to public housing, or increasing the safety of our roads."
 create-objective-guidance,item-2,Share your idea to encourage debate.
 draft-guidance,heading,What is a draft?
@@ -47,7 +47,7 @@ draft-guidance,text-line-3,Everyone can comment and make suggestions.
 index,doc-title,%app-name%
 index,doc-description,%app-name%
 index,index-welcome,Collaborative policy making for democratic organisations.
-index,index-get-started-title,Objectives
+index,index-get-started-title,Ideas
 index,index-intro,"Gather community opinion, generate ideas, share, discuss, vote and collaborate with experts to draft new action plans."
 index,create-objective-begin,A policy starts with an
 index,create-objective-keyword,idea
@@ -58,7 +58,7 @@ index,draft-info-keyword,drafts
 index,draft-info-end,and each one is reviewed by the community.
 index,draft-finished,The finished action plan
 index,draft-finished-info,is published!
-index,objectives,View ideas
+index,objectives,See the ideas
 index,learn-more,Learn more
 objective-list,doc-title,Ideas | %app-name%
 objective-list,doc-description,
@@ -67,26 +67,26 @@ objective-list,promoted-objective-information,There is a limit of three promoted
 objective-list,promoted-subtitle,Promoted ideas
 objective-list,promote-button,Promote
 objective-list,demote-button,Demote
-objective-list,create-objective-link,Propose your idea
+objective-list,create-objective-link,Submit your idea
 objective-list,subtitle,Recent ideas
 objective-list,drafting-begins,Drafting begins is
 objective-list,days,days
 objective-list,drafting-started,Drafting has started
-create-objective,doc-title,Propose your idea | %app-name%
+create-objective,doc-title,Submit your idea | %app-name%
 create-objective,doc-description,
-create-objective,page-title,Propose your idea
-create-objective,headline,Headline
-create-objective,headline-prompt,A headline should encourage contribution or discussion
+create-objective,page-title,Submit your idea
+create-objective,headline,Idea title
+create-objective,headline-prompt,Provide a short title describing the aim of your idea.
 create-objective,goals,Goals
 create-objective,goal-2,Goal 2
 create-objective,goal-3,Goal 3
 create-objective,goals-prompt,A goal is what you’d like your change to achieve
-create-objective,background,Background
-create-objective,background-prompt,Provide further information on why achieving this objective is important or necessary
+create-objective,background,Idea description
+create-objective,background-prompt,Tell us why your idea is important, but keep it brief – a long description will make it harder for people to engage with your idea.
 create-objective,submit-text,Create
-create-objective,title-length-validation-message,The objective title must be between 3 and 120 characters
-create-objective,description-empty-validation-message,Please enter a description for your objective
-create-objective,description-length-validation-message,The objective description can have at most 5000 characters
+create-objective,title-length-validation-message,The idea title must be between 3 and 120 characters
+create-objective,description-empty-validation-message,Please enter a description for your idea
+create-objective,description-length-validation-message,The idea description can have at most 5000 characters
 draft,doc-title,Action plan draft | %app-name%
 draft,doc-description,Draft action plan for idea ...
 draft,add-a-draft,Add a draft
@@ -109,7 +109,7 @@ draft-comments,draft-prefix,Draft
 draft-comments,title-prefix,Comments for draft
 draft-list,doc-title,Drafts | %app-name%
 draft-list,doc-description,
-draft-list,objective,Objective
+draft-list,objective,Idea
 draft-list,drafts,Action plan drafts
 draft-list,drafts-for,Action plan drafts for:
 draft-list,no-drafts,No action plan drafts have been submitted yet
@@ -240,7 +240,7 @@ objective-view,latest-draft,Latest action plan
 objective-view,details,Idea summary
 objective-view,goals-label,Goals
 objective-view,created-message,Your idea has been created!
-objective-view,doc-title,Objective | %app-name%
+objective-view,doc-title,Idea | %app-name%
 objective-view,background-label,Background
 objective-view,doc-description,Idea  ...
 objective-view,writers,Writers

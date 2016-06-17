@@ -231,3 +231,50 @@ $home_icon_height: 6.4 * $base-spacing;
     border-bottom: none;
   }
 }
+
+
+.index-blog {
+  .container {
+    @include cf;
+    border-bottom: 0;
+  }
+  background-color: $black;
+  color: $white;
+}
+
+.blog-intro {
+  font-weight: bold;
+  @include mq($large_device) {
+    width: 45%;
+    float: left;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+.blog-feed {
+  @include mq($large_device) {
+    float: right;
+    width: 50%;
+  }
+  list-style-type: none;
+  margin: 1.5em 0;
+  padding-left: 1em;
+  li {
+    margin: 1em 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .post-date {
+    color: $color2;
+    display: block;
+  }
+  a {
+    font-size: $h2-font-size;
+    color: $color1;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}

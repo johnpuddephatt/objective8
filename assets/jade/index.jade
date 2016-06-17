@@ -71,7 +71,33 @@ block content
                  p The People’s Plan has been started by Liam Byrne, MP for Hodge Hill in Birmingham.
                  p It’s not a party political initiative, however. It will involve trade unions, community groups and as many people as possible from all parties and none.
         include ../images/qa.svg
+    .index-blog
+      .container
+        .blog-intro
+          h3 Follow our progress
+          p The People’s Plan blog is the place to stay up to date with our progress. We’ll be using it to consult on the process, respond to feedback and share news about the offline events we’ve got planned.
+          a(href="https://westmidsblog.peoplesplan.co.uk") Visit the People’s Plan blog
+        ul.blog-feed
+
 
   script(src="https://westmidsblog.peoplesplan.co.uk/shared/ghost-url.min.js?v=4f7c08f541")
   script.
     ghost.init({clientId: "ghost-frontend",clientSecret: "1b1ee89031a7"});
+    function onSuccess(data) {
+      var $result = $('.blog-feed');
+      $.each(data.posts, function (i, post) {
+        var thisDate = new Date(post.created_at);
+        var myDate = ('0' + thisDate.getDate()).slice(-2) + '/'
+                   + ('0' + (thisDate.getMonth()+1)).slice(-2) + '/'
+                   + ('0' + thisDate.getFullYear()).slice(-2);
+        $result.append(
+          '<li><span class="post-date">' + myDate + '</span><a href="https://westmidsblog.peoplesplan.co.uk/' +  post.slug + '">' + post.title + '</a></li>'
+        );
+      });
+    }
+
+    jQuery(document).ready(function () {
+      $.get(
+        ghost.url.api('posts', {limit: 3})
+      ).done(onSuccess);
+    });

@@ -86,3 +86,12 @@ html.no-js(lang="!en", class="#{htmlClass}", data-l8n="attr/lang:base/language")
 
     +javascriptIncludeTag("scripts.min")
     block footerScripts
+
+    script.
+      jQuery(document).ready(function () {
+        if($('.blog-feed').length) {
+          $.get(
+            ghost.url.api('posts', {limit: 3})
+          ).done(onSuccess);
+        }
+      });
